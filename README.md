@@ -1,0 +1,2 @@
+# subword-miniproject-1
+ 
