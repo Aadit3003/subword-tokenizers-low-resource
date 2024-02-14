@@ -208,10 +208,6 @@ if __name__ == "__main__":
 # AFTER:  {'f1': 0.689, 'precision': 0.626, 'recall': 0.766}
 # 0.115 secs
     
-# {'Language': 'shp', 'Model': 'bert-base-cased', 'V': 1200, 'B': 64}
-# BEFORE:  {'f1': 0, 'precision': 0.0, 'recall': 0.0}
-# AFTER:  {'f1': 0.552, 'precision': 0.533, 'recall': 0.571}
-# 0.112 secs
     
 
 # SENTENCE_PIECE:  0.084 secs
