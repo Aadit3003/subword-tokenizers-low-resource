@@ -1,5 +1,5 @@
 # subword-miniproject-1
-Mini-Project 1 for 11824. I write two subword tokenizers using Morfessor Flatcat and Wordpiece for Shipibo-Konibo (shp) and Rarámuri (tar) respectively (to beat Morfessor and Sentencepiece baselines).
+Mini-Project 1 for 11824. I use two subword tokenizers using Morfessor Flatcat and Wordpiece for Shipibo-Konibo (shp) and Rarámuri (tar) respectively (to beat Morfessor and Sentencepiece baselines).
  ## File Structure
 The files are organized as follows:
 - 0_Scripts:- Contains the two tokenizer files for shp and tar respectively. Also contains utilities like evaluation (score.py) and timer (Timer.py)
@@ -11,7 +11,7 @@ The files are organized as follows:
  ## Run Commands
  Any one of these commands within the 0_Scripts directories will produce the output and log files for both tokenizers
 `sbatch run.sh` \
-or
+or \
 `python tokenizer_SHP_Morfessor_Flatcat.py` and
 `python tokenizer_TAR_Wordpiece.py`
 
