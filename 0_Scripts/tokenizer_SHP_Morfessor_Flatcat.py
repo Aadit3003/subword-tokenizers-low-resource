@@ -39,12 +39,12 @@ import flatcat
 
 
 always_split_regex = r'ib|im|ri|ia'
-always_split_regex = None
+# always_split_regex = None
 never_split_regex = r'ku|ru|pi|ar|iw|ra|mi\
                         |sa|ik|uk|ch|be|en|\
                         pá|né|ar|si|ni|ki|\
                           hi| ná| ma|ti|má'
-never_split_regex = None
+# never_split_regex = None
 
 def subword_tokenize(lang, train_file, input_file, output_file, print_result = False, write_output = False):
 
